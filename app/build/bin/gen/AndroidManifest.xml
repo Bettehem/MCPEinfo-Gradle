@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.bettehem.testi"
+	android:versionCode="7"
+	android:versionName="@string/manappvs"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<uses-sdk
+		android:minSdkVersion="8"
+		android:targetSdkVersion="21"/>
+
+	<application
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:allowBackup="false"
+		android:theme="@style/AppBaseTheme">
+
+		<category
+			android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".MainActivity">
+
+			<intent-filter>
+
+				<action
+					android:name="android.intent.action.MAIN"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.LAUNCHER"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".MainMenu">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.MAINMENU"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".MainMenu21">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.MAINMENU21"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".IntroDuction">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.INTRODUCTION"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".Basics080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.BASICS080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".CmdScreen">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.CMDSCREEN"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".Changelog">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.CHANGELOG"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".Feedback">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.FEEDBACK"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".MenuSet080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.MENUSETTINGS080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".PlayMenu080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.PLAYMENU080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".PlayorMenu076">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.PLAYORMENU076"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".SettingsMenu080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.SETTINGSMENU080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".PlayPic080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.PLAYPIC080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".WorldPic080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.WORLDPIC080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".ServerPic080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.SERVERPIC080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".GameSettings080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.GAMESETTINGS080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".ControlSettings080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.CONTROLSETTINGS080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".GraphicSettings080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.GRAPHICSETTINGS080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".SoundSettings080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.SOUNDSETTINGS080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".Upcoming">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.UPCOMING"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".OldBasics">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.OLDBASICS"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".Basics076">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.BASICS076"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".MenuSet076">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.MENUSET076"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".ControlSettings076">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.CONTROLSETTINGS076"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".GameSettings076">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.GAMESETTINGS076"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".PlayMenu076">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.PLAYMENU076"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".PlayPic076">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.PLAYPIC076"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".ServerPic076">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.SERVERPIC076"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".SoundSettings076">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.SOUNDSETTINGS076"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".GraphicSettings076">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.GRAPHICSETTINGS076"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".SettingsMenu076">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.SETTINGSMENU076"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".WorldPic076">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.WORLDPIC076"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".BugReport">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.BUGREPORT"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".Rating">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.RATING"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".Prefs">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.PREFS"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".About"
+			android:theme="@android:style/Theme.Dialog">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.ABOUT"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".CrashReport">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.CRASHREPORT"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".GraphicalBug">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.GRAPHICALBUG"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".OtherFeedback">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.OTHERFEEDBACK"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".Crafting080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.CRAFTING080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".HowToCraft080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.HOWTOCRAFT080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".Furnace080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.FURNACE080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".HowToSmelt080">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.HOWTOSMELT080"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:label="@string/app_name"
+			android:name=".Ratingmethod">
+
+			<intent-filter>
+
+				<action
+					android:name="com.bettehem.testi.RATINGMETHOD"/>
+
+				<category
+					android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+
+				<category
+					android:name="android.intent.category.DEFAULT"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<meta-data
+			android:name="com.sec.android.support.multiwindow"
+			android:value="true"/>
+
+		<meta-data
+			android:name="com.sec.minimode.icon.portrait.normal"
+			android:resource="@drawable/ic_launcher"/>
+
+		<meta-data
+			android:name="com.sec.minimode.icon.landscape.normal"
+			android:resource="@drawable/ic_launcher"/>
+
+	</application>
+
+</manifest>
+
