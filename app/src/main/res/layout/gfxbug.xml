@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/backround">
+
+	<ScrollView
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:orientation="vertical">
+			
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="@string/inputlanguage"
+				android:layout_width="wrap_content"
+				android:gravity="center"
+				android:layout_gravity="center"
+				android:id="@+id/inputlang"/>
+
+			<TextView
+				android:id="@+id/whathappened"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="@string/gfxrep"
+				android:textSize="25dp"/>
+
+			<EditText
+				android:id="@+id/whathappenedanswer"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:hint="@string/buganswer"/>
+
+			
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:weightSum="20">
+
+				<TextView
+					android:id="@+id/customromtxt"
+					android:layout_height="wrap_content"
+					android:layout_width="fill_parent"
+					android:text="@string/customrom"
+					android:textSize="25dp"
+					android:layout_weight="8"
+					android:layout_gravity="center"/>
+
+
+				<ToggleButton
+				    android:id="@+id/customromtoggle"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:textOff="@string/no"
+				    android:textOn="@string/yes"
+				    android:layout_weight="12"
+				    android:layout_gravity="center"/>
+
+			</LinearLayout>
+
+			<EditText
+				android:id="@+id/customromanswer"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:hint="@string/typerom"
+				android:visibility="invisible"/>
+
+			<TextView
+				android:id="@+id/extracomment"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="@string/extracomment"
+				android:textSize="25dp"/>
+
+			<EditText
+				android:id="@+id/extracommentanswer"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:hint="@string/extracommentanswer"/>
+
+			<TextView
+				android:id="@+id/taptosend"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="@string/taptosend"
+				android:textSize="25dp"/>
+
+			<Button
+				android:id="@+id/sendbtn"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="@string/sendbtn"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

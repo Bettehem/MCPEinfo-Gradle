@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- your theme inherits from the material theme -->
+	<style name="AppBaseTheme" parent="android:Theme.Light">
+		<!-- theme customizations -->
+	</style>
+	
+	<style name="AppTheme" parent="AppBaseTheme">
+		
+		
+		
+	</style>
+	
+</resources>

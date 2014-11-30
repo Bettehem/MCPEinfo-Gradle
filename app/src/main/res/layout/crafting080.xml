@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/backround"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+		android:id="@+id/crafting080header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/craftingtutorial"
+        android:textSize="35dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+				android:id="@+id/crafting080text1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/craftingintro"
+                android:textSize="30dp" />
+            
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:adjustViewBounds="true"
+                android:src="@drawable/crafting_hotbar080" />
+
+            <TextView
+				android:id="@+id/crafting080text2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/craftingintro2"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:adjustViewBounds="true"
+                android:src="@drawable/survival_inventory080" />
+
+            <TextView
+				android:id="@+id/crafting080text3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/craftingintro3"
+                android:textSize="30dp" />
+            
+			<Button
+                android:id="@+id/learnhowtocraft080"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/learnhowtocraft"
+                android:textSize="25dp" />
+			
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

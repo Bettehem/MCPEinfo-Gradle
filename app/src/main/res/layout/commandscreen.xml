@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:id="@+id/backround">
+	
+	<TextView
+		android:id="@+id/cmdscreenheader"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:text="@string/secret"
+		android:textSize="35dp"/>
+	
+	<EditText
+		android:id="@+id/input"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:hint="@string/cmdline"/>
+	
+	<Button
+		android:id="@+id/enter"
+		android:layout_width="250dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:text="@string/enter"
+		android:textSize="25dp"/>
+	
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+	
+	<TextView
+		android:id="@+id/error"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:text="@string/note"
+		android:textSize="50dp"/>
+		</LinearLayout>
+	</ScrollView>
+    
+</LinearLayout>

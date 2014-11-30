@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:id="@+id/backround">
+	
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical">
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="30dp"
+		android:text="@string/msettings076"/>
+	<ImageView
+		android:src="@drawable/mcpemm076"
+		android:layout_width="wrap_content"
+		android:layout_height="225dp"
+		android:layout_gravity="center"
+		android:gravity="center"/>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="30dp"
+		android:text="@string/msettings2_076"/>
+	
+	<Button
+		android:id="@+id/play"
+		android:layout_width="250dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:text="Play"
+		android:textSize="35dp"/>
+	
+	<Button
+		android:id="@+id/playor"
+		android:layout_width="250dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:text="Play on Realms"
+		android:textSize="35dp"/>
+	
+	<Button
+		android:id="@+id/settings"
+		android:layout_width="250dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:text="Settings"
+		android:textSize="35dp"/>
+	
+		</LinearLayout>
+	</ScrollView>
+    
+</LinearLayout>

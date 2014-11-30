@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:id="@+id/backround">
+	
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+			
+			<Button
+				android:id="@+id/playmenubtn"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="@string/openpic"/>
+			
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/playmenutxt"
+				android:textSize="30dp"
+				android:layout_gravity="center"
+				android:gravity="center"/>
+			
+		    <Button
+				android:id="@+id/addworldbtn"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="@string/openpic"/>  
+		
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/playmenutxt2"
+				android:textSize="30dp"
+				android:layout_gravity="center"
+				android:gravity="center"/>
+			
+			<Button
+				android:id="@+id/addserverbtn"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="@string/openpic"/>
+			
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/playmenutxt3"
+				android:textSize="30dp"
+				android:layout_gravity="center"
+				android:gravity="center"/>
+			
+		</LinearLayout>
+	</ScrollView>
+    
+</LinearLayout>

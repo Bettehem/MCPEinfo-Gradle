@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array
+        name="otherfeedback_array">
+        <item>@string/selectotherfbsub</item>
+        <item>@string/featuresug</item>
+        <item>@string/moresoon</item>
+    </string-array>
+</resources>

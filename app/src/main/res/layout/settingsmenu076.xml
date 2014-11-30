@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:id="@+id/backround">
+	
+<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/settingstxt"
+		android:textSize="30dp"
+		android:layout_gravity="center"
+		android:gravity="center"/>
+	
+	<Button
+		android:id="@+id/gameset"
+		android:layout_width="250dp"
+		android:layout_height="wrap_content"
+		android:text="Game"
+		android:textSize="25dp"
+		android:layout_gravity="center"
+		android:gravity="center"/>
+	
+	<Button
+		android:id="@+id/ctrlset"
+		android:layout_width="250dp"
+		android:layout_height="wrap_content"
+		android:text="Controls"
+		android:textSize="25dp"
+		android:layout_gravity="center"
+		android:gravity="center"/>
+	
+	<Button
+		android:id="@+id/graphset"
+		android:layout_width="250dp"
+		android:layout_height="wrap_content"
+		android:text="Graphics"
+		android:textSize="25dp"
+		android:layout_gravity="center"
+		android:gravity="center"/>
+	
+	<Button
+		android:id="@+id/soundset"
+		android:layout_width="250dp"
+		android:layout_height="wrap_content"
+		android:text="Sound"
+		android:textSize="25dp"
+		android:layout_gravity="center"
+		android:gravity="center"/>
+	
+	</LinearLayout>
+</ScrollView>
+    
+</LinearLayout>

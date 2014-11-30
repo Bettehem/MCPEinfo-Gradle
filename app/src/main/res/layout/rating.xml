@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:id="@+id/backround">
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="@string/inputlanguage"
+				android:layout_width="wrap_content"
+				android:gravity="center"
+				android:layout_gravity="center"
+				android:id="@+id/inputlang"/>
+
+			<TextView
+				android:id="@+id/ratingtxt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/giverating"
+				android:textSize="25dp"/>
+
+			<RatingBar
+				android:id="@+id/ratingbar"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:stepSize="1.0"/>
+
+			<TextView
+				android:id="@+id/extracomment"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="@string/extracomment"
+				android:textSize="25dp"/>
+
+			<EditText
+				android:id="@+id/extracommentanswer"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:hint="@string/extracommentanswer"/>
+
+			<TextView
+				android:id="@+id/taptosend"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="@string/taptosendrating"
+				android:textSize="25dp"/>
+
+			<Button
+				android:id="@+id/sendbtn"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="@string/sendbtn"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

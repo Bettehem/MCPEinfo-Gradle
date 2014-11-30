@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:id="@+id/backround">
+	
+	<ScrollView
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:textSize="25dp"/>
+	
+			<Button
+				android:id="@+id/crash"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="@string/crash"
+				android:textSize="30dp"
+				android:gravity="center"
+				android:layout_gravity="center"/>
+			
+			<Button
+				android:id="@+id/gfxbug"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="@string/gfxbug"
+				android:textSize="30dp"
+				android:gravity="center"
+				android:layout_gravity="center"/>
+			
+		</LinearLayout>
+    </ScrollView>
+</LinearLayout>
