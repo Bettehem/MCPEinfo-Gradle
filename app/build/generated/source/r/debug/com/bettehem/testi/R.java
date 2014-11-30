@@ -1871,6 +1871,10 @@ containing a value of this type.
         public static final int backbtn=0x7f0d0016;
         public static final int basic=0x7f0d0017;
         public static final int basictxt=0x7f0d0018;
+        /** NOTE:\nThis is a beta version so it might be unstable and possibly contains some bugs!\n
+NOTE:\nThis is a beta version so it might be unstable and possibly contains some bugs!\n
+HUOMIO:\nTämä on beta versio ja saattaa olla epävakaa ja mahdollisesti sisältää virheitä!\n
+         */
         public static final int betanote=0x7f0d0019;
         public static final int buganswer=0x7f0d001a;
         public static final int bugs=0x7f0d001b;
