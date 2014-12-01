@@ -1,7 +1,9 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
 	android:id="@+id/backround">
 
 	<ScrollView
@@ -20,7 +22,7 @@
 				android:layout_gravity="center"
 				android:gravity="center"
 				android:text="@string/basic"
-				android:textSize="45dp"/>
+				android:textSize="34sp"/>
 
 			<TextView
 				android:layout_width="fill_parent"
@@ -28,8 +30,7 @@
 				android:layout_gravity="center"
 				android:gravity="center"
 				android:text="@string/basictxt"
-				android:textSize="35dp"/>
-
+				android:textSize="16sp"/>
 
 			<Button
 				android:id="@+id/menuS"
@@ -38,9 +39,11 @@
 				android:layout_gravity="center"
 				android:gravity="center"
 				android:text="@string/menut"
-				android:textSize="30dp"/>
+				android:textSize="15dp"/>
 
 		</LinearLayout>
+
 	</ScrollView>
 
 </LinearLayout>
+

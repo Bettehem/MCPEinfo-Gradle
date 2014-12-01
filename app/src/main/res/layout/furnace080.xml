@@ -1,9 +1,11 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
 	android:id="@+id/backround">
-	
+
 	<TextView
 		android:id="@+id/furnace080header"
 		android:layout_width="fill_parent"
@@ -11,54 +13,57 @@
 		android:layout_gravity="center"
 		android:gravity="center"
 		android:text="@string/furnacetutorial"
-		android:textSize="35dp" />
-	
+		android:textSize="34sp"/>
+
 	<ScrollView
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
 		android:orientation="vertical">
-		
+
 		<LinearLayout
 			android:layout_width="fill_parent"
 			android:layout_height="fill_parent"
 			android:orientation="vertical">
-			
+
 			<TextView
 				android:id="@+id/furnace080text1"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/furnaceintro080"
-                android:textSize="30dp" />
-			
-			<Button
-                android:id="@+id/craftingTut080"
 				android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/taptolearncraft"
-                android:textSize="30dp" />
-			
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="@string/furnaceintro080"
+				android:textSize="18sp"/>
+
+			<Button
+				android:id="@+id/craftingTut080"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="@string/taptolearncraft"
+				android:textSize="15sp"/>
+
 			<TextView
 				android:id="@+id/furnace080text2"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/furnaceintro2080"
-                android:textSize="30dp" />
-
-            <Button
-                android:id="@+id/learnhowtosmelt080"
 				android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/howtosmelt"
-                android:textSize="30dp" />
-			
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="@string/furnaceintro2080"
+				android:textSize="18sp"/>
+
+			<Button
+				android:id="@+id/learnhowtosmelt080"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="@string/howtosmelt"
+				android:textSize="15sp"/>
+
 		</LinearLayout>
-    </ScrollView>
+
+	</ScrollView>
+
 </LinearLayout>
+

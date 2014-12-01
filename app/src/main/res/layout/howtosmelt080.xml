@@ -1,111 +1,117 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
 	android:id="@+id/backround">
-    
+
 	<TextView
 		android:id="@+id/howtosmelt080header"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="@string/usingfurnace"
-        android:textSize="35dp" />
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:text="@string/usingfurnace"
+		android:textSize="34sp"/>
 
-    <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical" >
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="vertical" >
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical">
 
-            <TextView
+			<TextView
 				android:id="@+id/howtosmelt080text1"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/howtosmelt_text080"
-                android:textSize="30dp" />
-			
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="@string/howtosmelt_text080"
+				android:textSize="18sp"/>
+
 			<ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
 				android:adjustViewBounds="true"
-                android:src="@drawable/furnace_block"/>
-			
+				android:src="@drawable/furnace_block"/>
+
 			<TextView
 				android:id="@+id/howtosmelt080text2"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/howtosmelt_text2080"
-                android:textSize="30dp" />
-			
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="@string/howtosmelt_text2080"
+				android:textSize="18sp"/>
+
 			<ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
 				android:adjustViewBounds="true"
-                android:src="@drawable/furnace_downslot080"/>
+				android:src="@drawable/furnace_downslot080"/>
 
 			<TextView
 				android:id="@+id/howtosmelt080text3"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/howtosmelt_text3080"
-                android:textSize="30dp" />
-			
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="@string/howtosmelt_text3080"
+				android:textSize="18sp"/>
+
 			<ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
 				android:adjustViewBounds="true"
-                android:src="@drawable/furnace_downslot080"/>
+				android:src="@drawable/furnace_downslot080"/>
 
 			<TextView
 				android:id="@+id/howtosmelt080text4"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/howtosmelt_text4080"
-                android:textSize="30dp" />
-			
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="@string/howtosmelt_text4080"
+				android:textSize="18sp"/>
+
 			<ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
 				android:adjustViewBounds="true"
-                android:src="@drawable/furnace_topslot080"/>
+				android:src="@drawable/furnace_topslot080"/>
 
 			<TextView
 				android:id="@+id/howtosmelt080text5"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/howtosmelt_text5080"
-                android:textSize="30dp" />
-			
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="@string/howtosmelt_text5080"
+				android:textSize="30dp"/>
+
 			<ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
 				android:adjustViewBounds="true"
-                android:src="@drawable/furnace_smelting080"/>
+				android:src="@drawable/furnace_smelting080"/>
 
 			<TextView
 				android:id="@+id/howtosmelt080text6"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/howtosmelt_text6080"
-                android:textSize="30dp" />
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="@string/howtosmelt_text6080"
+				android:textSize="30dp"/>
+
 		</LinearLayout>
+
 	</ScrollView>
+
 </LinearLayout>
+

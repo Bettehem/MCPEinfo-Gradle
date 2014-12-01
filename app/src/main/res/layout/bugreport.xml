@@ -1,8 +1,10 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
 	android:id="@+id/backround">
-	
+
 	<ScrollView
 		android:layout_height="fill_parent"
 		android:layout_width="fill_parent"
@@ -16,26 +18,29 @@
 			<TextView
 				android:layout_height="wrap_content"
 				android:layout_width="fill_parent"
-				android:textSize="25dp"/>
-	
+				android:textSize="25sp"/>
+
 			<Button
 				android:id="@+id/crash"
 				android:layout_height="wrap_content"
 				android:layout_width="wrap_content"
 				android:text="@string/crash"
-				android:textSize="30dp"
+				android:textSize="18sp"
 				android:gravity="center"
 				android:layout_gravity="center"/>
-			
+
 			<Button
 				android:id="@+id/gfxbug"
 				android:layout_height="wrap_content"
 				android:layout_width="wrap_content"
 				android:text="@string/gfxbug"
-				android:textSize="30dp"
+				android:textSize="18sp"
 				android:gravity="center"
 				android:layout_gravity="center"/>
-			
+
 		</LinearLayout>
-    </ScrollView>
+
+	</ScrollView>
+
 </LinearLayout>
+

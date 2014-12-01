@@ -1,6 +1,8 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
 	android:id="@+id/backround">
 
 	<ScrollView
@@ -12,27 +14,29 @@
 			android:layout_height="fill_parent"
 			android:layout_width="fill_parent"
 			android:orientation="vertical">
-			
+
 			<TextView
 				android:layout_height="wrap_content"
 				android:text="@string/inputlanguage"
 				android:layout_width="wrap_content"
 				android:gravity="center"
 				android:layout_gravity="center"
-				android:id="@+id/inputlang"/>
+				android:id="@+id/inputlang"
+				android:textSize="15sp"/>
 
 			<TextView
 				android:id="@+id/whathappened"
 				android:layout_height="wrap_content"
 				android:layout_width="fill_parent"
 				android:text="@string/crashrep"
-				android:textSize="25dp"/>
+				android:textSize="18sp"/>
 
 			<EditText
 				android:id="@+id/whathappenedanswer"
 				android:layout_height="wrap_content"
 				android:layout_width="fill_parent"
-				android:hint="@string/buganswer"/>
+				android:hint="@string/buganswer"
+				android:textSize="15sp"/>
 
 			<LinearLayout
 				android:layout_width="fill_parent"
@@ -45,21 +49,22 @@
 					android:layout_height="wrap_content"
 					android:layout_width="fill_parent"
 					android:text="@string/customrom"
-					android:textSize="25dp"
+					android:textSize="18dp"
 					android:layout_weight="8"
 					android:layout_gravity="center"/>
 
 				<ToggleButton
-				    android:id="@+id/customromtoggle"
-				    android:layout_width="fill_parent"
-				    android:layout_height="wrap_content"
-				    android:textOff="@string/no"
-				    android:textOn="@string/yes"
-				    android:layout_weight="12"
-				    android:layout_gravity="center"/>
+					android:id="@+id/customromtoggle"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textOff="@string/no"
+					android:textOn="@string/yes"
+					android:layout_weight="12"
+					android:layout_gravity="center"
+					android:textSize="18sp"/>
 
 			</LinearLayout>
-			
+
 			<EditText
 				android:id="@+id/customromanswer"
 				android:layout_width="fill_parent"
@@ -72,26 +77,32 @@
 				android:layout_height="wrap_content"
 				android:layout_width="fill_parent"
 				android:text="@string/extracomment"
-				android:textSize="25dp"/>
+				android:textSize="18dp"/>
 
 			<EditText
 				android:id="@+id/extracommentanswer"
 				android:layout_height="wrap_content"
 				android:layout_width="fill_parent"
-				android:hint="@string/extracommentanswer"/>
+				android:hint="@string/extracommentanswer"
+				android:textSize="15sp"/>
 
 			<TextView
 				android:id="@+id/taptosend"
 				android:layout_height="wrap_content"
 				android:layout_width="fill_parent"
 				android:text="@string/taptosend"
-				android:textSize="25dp"/>
+				android:textSize="18sp"/>
 
 			<Button
 				android:id="@+id/sendbtn"
 				android:layout_height="wrap_content"
 				android:layout_width="fill_parent"
-				android:text="@string/sendbtn"/>
+				android:text="@string/sendbtn"
+				android:textSize="16sp"/>
+
 		</LinearLayout>
+
 	</ScrollView>
+
 </LinearLayout>
+
