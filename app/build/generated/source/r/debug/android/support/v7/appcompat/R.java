@@ -56,10 +56,10 @@ public final class R {
 		public static final int barSize = 0x7f010031;
 		public static final int buttonBarButtonStyle = 0x7f01008d;
 		public static final int buttonBarStyle = 0x7f01008c;
-		public static final int buttonGravity = 0x7f0100bc;
 		public static final int closeIcon = 0x7f01004e;
 		public static final int closeItemLayout = 0x7f01001c;
-		public static final int collapseIcon = 0x7f0100bd;
+		public static final int collapseContentDescription = 0x7f0100bd;
+		public static final int collapseIcon = 0x7f0100bc;
 		public static final int color = 0x7f01002b;
 		public static final int colorAccent = 0x7f0100ad;
 		public static final int colorButtonNormal = 0x7f0100b1;
@@ -292,12 +292,12 @@ public final class R {
 		public static final int abc_text_size_subtitle_material_toolbar = 0x7f0a0022;
 		public static final int abc_text_size_title_material = 0x7f0a0023;
 		public static final int abc_text_size_title_material_toolbar = 0x7f0a0024;
-		public static final int dialog_fixed_height_major = 0x7f0a0029;
-		public static final int dialog_fixed_height_minor = 0x7f0a002a;
-		public static final int dialog_fixed_width_major = 0x7f0a002b;
-		public static final int dialog_fixed_width_minor = 0x7f0a002c;
-		public static final int disabled_alpha_material_dark = 0x7f0a002d;
-		public static final int disabled_alpha_material_light = 0x7f0a002e;
+		public static final int dialog_fixed_height_major = 0x7f0a002b;
+		public static final int dialog_fixed_height_minor = 0x7f0a002c;
+		public static final int dialog_fixed_width_major = 0x7f0a002d;
+		public static final int dialog_fixed_width_minor = 0x7f0a002e;
+		public static final int disabled_alpha_material_dark = 0x7f0a002f;
+		public static final int disabled_alpha_material_light = 0x7f0a0030;
 	}
 	public static final class drawable {
 		public static final int abc_ab_share_pack_holo_dark = 0x7f020000;
@@ -369,7 +369,6 @@ public final class R {
 		public static final int activity_chooser_view_content = 0x7f0b0032;
 		public static final int always = 0x7f0b0027;
 		public static final int beginning = 0x7f0b0025;
-		public static final int bottom = 0x7f0b0017;
 		public static final int checkbox = 0x7f0b003a;
 		public static final int collapseActionView = 0x7f0b0028;
 		public static final int decor_content_parent = 0x7f0b0040;
@@ -413,7 +412,6 @@ public final class R {
 		public static final int submit_area = 0x7f0b004d;
 		public static final int tabMode = 0x7f0b000b;
 		public static final int title = 0x7f0b0038;
-		public static final int top = 0x7f0b0024;
 		public static final int up = 0x7f0b0008;
 		public static final int useLogo = 0x7f0b0012;
 		public static final int withText = 0x7f0b002b;
@@ -464,6 +462,7 @@ public final class R {
 		public static final int abc_searchview_description_voice = 0x7f0d000c;
 		public static final int abc_shareactionprovider_share_with = 0x7f0d000d;
 		public static final int abc_shareactionprovider_share_with_application = 0x7f0d000e;
+		public static final int abc_toolbar_collapse_description = 0x7f0d000f;
 	}
 	public static final class style {
 		public static final int Base_TextAppearance_AppCompat = 0x7f0e0002;
@@ -940,8 +939,8 @@ public final class R {
 		public static final int[] Toolbar = { 0x010100af, 0x01010140, 0x7f010003, 0x7f010006, 0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001b, 0x7f0100b3, 0x7f0100b4, 0x7f0100b5, 0x7f0100b6, 0x7f0100b7, 0x7f0100b8, 0x7f0100b9, 0x7f0100ba, 0x7f0100bb, 0x7f0100bc, 0x7f0100bd, 0x7f0100be, 0x7f0100bf };
 		public static final int Toolbar_android_gravity = 0;
 		public static final int Toolbar_android_minHeight = 1;
-		public static final int Toolbar_buttonGravity = 18;
-		public static final int Toolbar_collapseIcon = 19;
+		public static final int Toolbar_collapseContentDescription = 19;
+		public static final int Toolbar_collapseIcon = 18;
 		public static final int Toolbar_contentInsetEnd = 5;
 		public static final int Toolbar_contentInsetLeft = 6;
 		public static final int Toolbar_contentInsetRight = 7;

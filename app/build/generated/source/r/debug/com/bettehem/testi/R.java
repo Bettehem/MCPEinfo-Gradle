@@ -225,17 +225,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int buttonBarStyle=0x7f01008c;
-        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
-<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
-</table>
-         */
-        public static final int buttonGravity=0x7f0100bc;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -299,10 +288,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int closeItemLayout=0x7f01001c;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int collapseContentDescription=0x7f0100bd;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapseIcon=0x7f0100bd;
+        public static final int collapseIcon=0x7f0100bc;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1486,16 +1483,18 @@ containing a value of this type.
         public static final int abc_text_size_subtitle_material_toolbar=0x7f0a0022;
         public static final int abc_text_size_title_material=0x7f0a0023;
         public static final int abc_text_size_title_material_toolbar=0x7f0a0024;
-        public static final int cardview_compat_inset_shadow=0x7f0a0025;
-        public static final int cardview_default_elevation=0x7f0a0026;
-        public static final int cardview_default_radius=0x7f0a0027;
-        public static final int default_gap=0x7f0a0028;
-        public static final int dialog_fixed_height_major=0x7f0a0029;
-        public static final int dialog_fixed_height_minor=0x7f0a002a;
-        public static final int dialog_fixed_width_major=0x7f0a002b;
-        public static final int dialog_fixed_width_minor=0x7f0a002c;
-        public static final int disabled_alpha_material_dark=0x7f0a002d;
-        public static final int disabled_alpha_material_light=0x7f0a002e;
+        public static final int activity_horizontal_margin=0x7f0a0025;
+        public static final int activity_vertical_margin=0x7f0a0026;
+        public static final int cardview_compat_inset_shadow=0x7f0a0027;
+        public static final int cardview_default_elevation=0x7f0a0028;
+        public static final int cardview_default_radius=0x7f0a0029;
+        public static final int default_gap=0x7f0a002a;
+        public static final int dialog_fixed_height_major=0x7f0a002b;
+        public static final int dialog_fixed_height_minor=0x7f0a002c;
+        public static final int dialog_fixed_width_major=0x7f0a002d;
+        public static final int dialog_fixed_width_minor=0x7f0a002e;
+        public static final int disabled_alpha_material_dark=0x7f0a002f;
+        public static final int disabled_alpha_material_light=0x7f0a0030;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_holo_dark=0x7f020000;
@@ -1857,121 +1856,122 @@ containing a value of this type.
         public static final int abc_searchview_description_voice=0x7f0d000c;
         public static final int abc_shareactionprovider_share_with=0x7f0d000d;
         public static final int abc_shareactionprovider_share_with_application=0x7f0d000e;
+        public static final int abc_toolbar_collapse_description=0x7f0d000f;
         /** \n2.3.3\n2.3.6
 \n2.3.3\n2.3.6
 \n2.3.3\n2.3.6
          */
-        public static final int aboutapp=0x7f0d000f;
-        public static final int abouttext=0x7f0d0010;
-        public static final int allcommands=0x7f0d0011;
-        public static final int androidversion=0x7f0d0012;
-        public static final int androidversionanswer=0x7f0d0013;
-        public static final int app_name=0x7f0d0014;
-        public static final int appsettings=0x7f0d0015;
-        public static final int backbtn=0x7f0d0016;
-        public static final int basic=0x7f0d0017;
-        public static final int basictxt=0x7f0d0018;
+        public static final int aboutapp=0x7f0d0010;
+        public static final int abouttext=0x7f0d0011;
+        public static final int allcommands=0x7f0d0012;
+        public static final int androidversion=0x7f0d0013;
+        public static final int androidversionanswer=0x7f0d0014;
+        public static final int app_name=0x7f0d0015;
+        public static final int appsettings=0x7f0d0016;
+        public static final int backbtn=0x7f0d0017;
+        public static final int basic=0x7f0d0018;
+        public static final int basictxt=0x7f0d0019;
         /** NOTE:\nThis is a beta version so it might be unstable and possibly contains some bugs!\n
 NOTE:\nThis is a beta version so it might be unstable and possibly contains some bugs!\n
 HUOMIO:\nTämä on beta versio ja saattaa olla epävakaa ja mahdollisesti sisältää virheitä!\n
          */
-        public static final int betanote=0x7f0d0019;
-        public static final int buganswer=0x7f0d001a;
-        public static final int bugs=0x7f0d001b;
-        public static final int changes=0x7f0d001c;
-        public static final int clog=0x7f0d001d;
-        public static final int cmd=0x7f0d001e;
-        public static final int cmdline=0x7f0d001f;
-        public static final int craftingintro=0x7f0d0020;
-        public static final int craftingintro2=0x7f0d0021;
-        public static final int craftingintro3=0x7f0d0022;
-        public static final int craftingtutorial=0x7f0d0023;
-        public static final int crash=0x7f0d0024;
-        public static final int crashrep=0x7f0d0025;
-        public static final int crashrepsub=0x7f0d0026;
-        public static final int ctrlsettings=0x7f0d0027;
-        public static final int customrom=0x7f0d0028;
-        public static final int enter=0x7f0d0029;
-        public static final int exit=0x7f0d002a;
-        public static final int extracomment=0x7f0d002b;
-        public static final int extracommentanswer=0x7f0d002c;
-        public static final int featuresug=0x7f0d002d;
-        public static final int feedbackmenu=0x7f0d002e;
-        public static final int furnaceintro080=0x7f0d002f;
-        public static final int furnaceintro2080=0x7f0d0030;
-        public static final int furnacetutorial=0x7f0d0031;
-        public static final int gamesettings=0x7f0d0032;
-        public static final int gfxbug=0x7f0d0033;
-        public static final int gfxbugsub=0x7f0d0034;
-        public static final int gfxrep=0x7f0d0035;
-        public static final int giverating=0x7f0d0036;
-        public static final int gotob=0x7f0d0037;
-        public static final int graphicsettings=0x7f0d0038;
-        public static final int howtocraft_text080=0x7f0d0039;
-        public static final int howtocraft_text2080=0x7f0d003a;
-        public static final int howtocraft_text3080=0x7f0d003b;
-        public static final int howtosmelt=0x7f0d003c;
-        public static final int howtosmelt_text080=0x7f0d003d;
-        public static final int howtosmelt_text2080=0x7f0d003e;
-        public static final int howtosmelt_text3080=0x7f0d003f;
-        public static final int howtosmelt_text4080=0x7f0d0040;
-        public static final int howtosmelt_text5080=0x7f0d0041;
-        public static final int howtosmelt_text6080=0x7f0d0042;
-        public static final int inputlanguage=0x7f0d0043;
-        public static final int introduction=0x7f0d0044;
-        public static final int itext=0x7f0d0045;
-        public static final int learnhowtocraft=0x7f0d0046;
-        public static final int mailrating=0x7f0d0047;
-        public static final int manappvs=0x7f0d0048;
-        public static final int menut=0x7f0d0049;
-        public static final int moresoon=0x7f0d004a;
-        public static final int msettings076=0x7f0d004b;
-        public static final int msettings080=0x7f0d004c;
-        public static final int msettings2_076=0x7f0d004d;
-        public static final int msettings2_080=0x7f0d004e;
-        public static final int musicsetinfo=0x7f0d004f;
-        public static final int musicsettings=0x7f0d0050;
-        public static final int musttyperom=0x7f0d0051;
-        public static final int no=0x7f0d0052;
-        public static final int nocmderror=0x7f0d0053;
-        public static final int nocmdtexterror=0x7f0d0054;
-        public static final int nomodify=0x7f0d0055;
-        public static final int note=0x7f0d0056;
-        public static final int oldversions=0x7f0d0057;
-        public static final int openpic=0x7f0d0058;
-        public static final int other=0x7f0d0059;
-        public static final int otsikko=0x7f0d005a;
-        public static final int playmenutxt=0x7f0d005b;
-        public static final int playmenutxt2=0x7f0d005c;
-        public static final int playmenutxt3=0x7f0d005d;
-        public static final int playrating=0x7f0d005e;
-        public static final int rating=0x7f0d005f;
-        public static final int ratingsub=0x7f0d0060;
-        public static final int realmstxt=0x7f0d0061;
-        public static final int secret=0x7f0d0062;
-        public static final int selectold=0x7f0d0063;
-        public static final int selectotherfbsub=0x7f0d0064;
-        public static final int selectsubfirst=0x7f0d0065;
-        public static final int selratingmethod=0x7f0d0066;
-        public static final int sendbtn=0x7f0d0067;
-        public static final int settingstxt=0x7f0d0068;
-        public static final int soundsettings=0x7f0d0069;
-        public static final int taptolearncraft=0x7f0d006a;
-        public static final int taptosend=0x7f0d006b;
-        public static final int taptosendrating=0x7f0d006c;
-        public static final int thanksforfb=0x7f0d006d;
-        public static final int typemsghere=0x7f0d006e;
-        public static final int typerequired=0x7f0d006f;
-        public static final int typerequiredplusrom=0x7f0d0070;
-        public static final int typerom=0x7f0d0071;
-        public static final int typesomethingfirst=0x7f0d0072;
-        public static final int typesomethinginboth=0x7f0d0078;
-        public static final int typesomethinginbothplusrom=0x7f0d0079;
-        public static final int upcoming=0x7f0d0073;
-        public static final int usingcraftui=0x7f0d0074;
-        public static final int usingfurnace=0x7f0d0075;
-        public static final int version=0x7f0d0076;
-        public static final int yes=0x7f0d0077;
+        public static final int betanote=0x7f0d001a;
+        public static final int buganswer=0x7f0d001b;
+        public static final int bugs=0x7f0d001c;
+        public static final int changes=0x7f0d001d;
+        public static final int clog=0x7f0d001e;
+        public static final int cmd=0x7f0d001f;
+        public static final int cmdline=0x7f0d0020;
+        public static final int craftingintro=0x7f0d0021;
+        public static final int craftingintro2=0x7f0d0022;
+        public static final int craftingintro3=0x7f0d0023;
+        public static final int craftingtutorial=0x7f0d0024;
+        public static final int crash=0x7f0d0025;
+        public static final int crashrep=0x7f0d0026;
+        public static final int crashrepsub=0x7f0d0027;
+        public static final int ctrlsettings=0x7f0d0028;
+        public static final int customrom=0x7f0d0029;
+        public static final int enter=0x7f0d002a;
+        public static final int exit=0x7f0d002b;
+        public static final int extracomment=0x7f0d002c;
+        public static final int extracommentanswer=0x7f0d002d;
+        public static final int featuresug=0x7f0d002e;
+        public static final int feedbackmenu=0x7f0d002f;
+        public static final int furnaceintro080=0x7f0d0030;
+        public static final int furnaceintro2080=0x7f0d0031;
+        public static final int furnacetutorial=0x7f0d0032;
+        public static final int gamesettings=0x7f0d0033;
+        public static final int gfxbug=0x7f0d0034;
+        public static final int gfxbugsub=0x7f0d0035;
+        public static final int gfxrep=0x7f0d0036;
+        public static final int giverating=0x7f0d0037;
+        public static final int gotob=0x7f0d0038;
+        public static final int graphicsettings=0x7f0d0039;
+        public static final int howtocraft_text080=0x7f0d003a;
+        public static final int howtocraft_text2080=0x7f0d003b;
+        public static final int howtocraft_text3080=0x7f0d003c;
+        public static final int howtosmelt=0x7f0d003d;
+        public static final int howtosmelt_text080=0x7f0d003e;
+        public static final int howtosmelt_text2080=0x7f0d003f;
+        public static final int howtosmelt_text3080=0x7f0d0040;
+        public static final int howtosmelt_text4080=0x7f0d0041;
+        public static final int howtosmelt_text5080=0x7f0d0042;
+        public static final int howtosmelt_text6080=0x7f0d0043;
+        public static final int inputlanguage=0x7f0d0044;
+        public static final int introduction=0x7f0d0045;
+        public static final int itext=0x7f0d0046;
+        public static final int learnhowtocraft=0x7f0d0047;
+        public static final int mailrating=0x7f0d0048;
+        public static final int manappvs=0x7f0d0049;
+        public static final int menut=0x7f0d004a;
+        public static final int moresoon=0x7f0d004b;
+        public static final int msettings076=0x7f0d004c;
+        public static final int msettings080=0x7f0d004d;
+        public static final int msettings2_076=0x7f0d004e;
+        public static final int msettings2_080=0x7f0d004f;
+        public static final int musicsetinfo=0x7f0d0050;
+        public static final int musicsettings=0x7f0d0051;
+        public static final int musttyperom=0x7f0d0052;
+        public static final int no=0x7f0d0053;
+        public static final int nocmderror=0x7f0d0054;
+        public static final int nocmdtexterror=0x7f0d0055;
+        public static final int nomodify=0x7f0d0056;
+        public static final int note=0x7f0d0057;
+        public static final int oldversions=0x7f0d0058;
+        public static final int openpic=0x7f0d0059;
+        public static final int other=0x7f0d005a;
+        public static final int otsikko=0x7f0d005b;
+        public static final int playmenutxt=0x7f0d005c;
+        public static final int playmenutxt2=0x7f0d005d;
+        public static final int playmenutxt3=0x7f0d005e;
+        public static final int playrating=0x7f0d005f;
+        public static final int rating=0x7f0d0060;
+        public static final int ratingsub=0x7f0d0061;
+        public static final int realmstxt=0x7f0d0062;
+        public static final int secret=0x7f0d0063;
+        public static final int selectold=0x7f0d0064;
+        public static final int selectotherfbsub=0x7f0d0065;
+        public static final int selectsubfirst=0x7f0d0066;
+        public static final int selratingmethod=0x7f0d0067;
+        public static final int sendbtn=0x7f0d0068;
+        public static final int settingstxt=0x7f0d0069;
+        public static final int soundsettings=0x7f0d006a;
+        public static final int taptolearncraft=0x7f0d006b;
+        public static final int taptosend=0x7f0d006c;
+        public static final int taptosendrating=0x7f0d006d;
+        public static final int thanksforfb=0x7f0d006e;
+        public static final int typemsghere=0x7f0d006f;
+        public static final int typerequired=0x7f0d0070;
+        public static final int typerequiredplusrom=0x7f0d0071;
+        public static final int typerom=0x7f0d0072;
+        public static final int typesomethingfirst=0x7f0d0073;
+        public static final int typesomethinginboth=0x7f0d0079;
+        public static final int typesomethinginbothplusrom=0x7f0d007a;
+        public static final int upcoming=0x7f0d0074;
+        public static final int usingcraftui=0x7f0d0075;
+        public static final int usingfurnace=0x7f0d0076;
+        public static final int version=0x7f0d0077;
+        public static final int yes=0x7f0d0078;
     }
     public static final class style {
         /**  theme customizations 
@@ -5756,7 +5756,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity com.bettehem.testi:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.bettehem.testi:collapseContentDescription}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_collapseIcon com.bettehem.testi:collapseIcon}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_contentInsetEnd com.bettehem.testi:contentInsetEnd}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_contentInsetLeft com.bettehem.testi:contentInsetLeft}</code></td><td></td></tr>
@@ -5779,7 +5779,7 @@ containing a value of this type.
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
-           @see #Toolbar_buttonGravity
+           @see #Toolbar_collapseContentDescription
            @see #Toolbar_collapseIcon
            @see #Toolbar_contentInsetEnd
            @see #Toolbar_contentInsetLeft
@@ -5821,22 +5821,19 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.bettehem.testi.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link com.bettehem.testi.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
-          <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>top</code></td><td>0x30</td><td></td></tr>
-<tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
-</table>
-          @attr name com.bettehem.testi:buttonGravity
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.bettehem.testi:collapseContentDescription
         */
-        public static final int Toolbar_buttonGravity = 18;
+        public static final int Toolbar_collapseContentDescription = 19;
         /**
           <p>This symbol is the offset where the {@link com.bettehem.testi.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
@@ -5846,7 +5843,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.bettehem.testi:collapseIcon
         */
-        public static final int Toolbar_collapseIcon = 19;
+        public static final int Toolbar_collapseIcon = 18;
         /**
           <p>This symbol is the offset where the {@link com.bettehem.testi.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
