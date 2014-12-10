@@ -30,7 +30,7 @@
 			    android:layout_gravity="center"
 			    android:gravity="center"
 			    android:text="@string/soundsettings"
-			    android:textSize="30dp" />
+			    android:textSize="18sp" />
 			
 		</LinearLayout>
 	</ScrollView>

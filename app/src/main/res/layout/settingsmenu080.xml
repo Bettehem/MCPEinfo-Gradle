@@ -21,14 +21,14 @@
 	    android:layout_gravity="center"
 	    android:gravity="center"
 	    android:text="@string/settingstxt"
-	    android:textSize="30dp" />
+	    android:textSize="18sp" />
 	
 	<Button
 		android:id="@+id/gameset"
 		android:layout_width="250dp"
 		android:layout_height="wrap_content"
 		android:text="Game"
-		android:textSize="25dp"
+		android:textSize="16sp"
 		android:layout_gravity="center"
 		android:gravity="center"/>
 	
@@ -37,7 +37,7 @@
 		android:layout_width="250dp"
 		android:layout_height="wrap_content"
 		android:text="Controls"
-		android:textSize="25dp"
+		android:textSize="16sp"
 		android:layout_gravity="center"
 		android:gravity="center"/>
 	
@@ -46,7 +46,7 @@
 		android:layout_width="250dp"
 		android:layout_height="wrap_content"
 		android:text="Graphics"
-		android:textSize="25dp"
+		android:textSize="16sp"
 		android:layout_gravity="center"
 		android:gravity="center"/>
 	
@@ -55,7 +55,7 @@
 		android:layout_width="250dp"
 		android:layout_height="wrap_content"
 		android:text="Sound"
-		android:textSize="25dp"
+		android:textSize="16sp"
 		android:layout_gravity="center"
 		android:gravity="center"/>
 	

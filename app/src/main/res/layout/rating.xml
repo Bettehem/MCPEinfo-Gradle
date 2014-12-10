@@ -29,7 +29,7 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:text="@string/giverating"
-				android:textSize="25dp"/>
+				android:textSize="26sp"/>
 
 			<RatingBar
 				android:id="@+id/ratingbar"
@@ -44,7 +44,7 @@
 				android:layout_height="wrap_content"
 				android:layout_width="fill_parent"
 				android:text="@string/extracomment"
-				android:textSize="25dp"/>
+				android:textSize="18sp"/>
 
 			<EditText
 				android:id="@+id/extracommentanswer"
@@ -57,7 +57,7 @@
 				android:layout_height="wrap_content"
 				android:layout_width="fill_parent"
 				android:text="@string/taptosendrating"
-				android:textSize="25dp"/>
+				android:textSize="18sp"/>
 
 			<Button
 				android:id="@+id/sendbtn"

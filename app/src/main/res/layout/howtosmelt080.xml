@@ -92,7 +92,7 @@
 				android:layout_gravity="center"
 				android:gravity="center"
 				android:text="@string/howtosmelt_text5080"
-				android:textSize="30dp"/>
+				android:textSize="18sp"/>
 
 			<ImageView
 				android:layout_width="wrap_content"
@@ -107,7 +107,7 @@
 				android:layout_gravity="center"
 				android:gravity="center"
 				android:text="@string/howtosmelt_text6080"
-				android:textSize="30dp"/>
+				android:textSize="18sp"/>
 
 		</LinearLayout>
 

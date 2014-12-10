@@ -13,7 +13,7 @@
 		android:layout_gravity="center"
 		android:gravity="center"
 		android:text="@string/usingcraftui"
-		android:textSize="35dp"/>
+		android:textSize="34sp"/>
 
 	<ScrollView
 		android:layout_width="fill_parent"
@@ -32,7 +32,7 @@
 				android:layout_gravity="center"
 				android:gravity="center"
 				android:text="@string/howtocraft_text080"
-				android:textSize="30dp"/>
+				android:textSize="18sp"/>
 			
 			<ImageView
 				android:layout_width="wrap_content"
@@ -48,7 +48,7 @@
 				android:layout_gravity="center"
 				android:gravity="center"
 				android:text="@string/howtocraft_text2080"
-				android:textSize="30dp"/>
+				android:textSize="18sp"/>
 			
 			<ImageView
 				android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
 				android:layout_gravity="center"
 				android:gravity="center"
 				android:text="@string/howtocraft_text3080"
-				android:textSize="30dp"/>
+				android:textSize="18sp"/>
 
 		</LinearLayout>
 

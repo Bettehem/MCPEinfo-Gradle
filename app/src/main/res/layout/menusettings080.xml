@@ -18,7 +18,7 @@
 		android:id="@+id/menusettings080text1"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:textSize="30dp"
+		android:textSize="18sp"
 		android:text="@string/msettings080"/>
 	<ImageView
 		android:src="@drawable/mcpemm080"
@@ -31,7 +31,7 @@
 		android:id="@+id/menusettings080text2"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:textSize="30dp"
+		android:textSize="18dp"
 		android:text="@string/msettings2_080"/>
 	
 	<Button
@@ -41,7 +41,7 @@
 		android:layout_gravity="center"
 		android:gravity="center"
 		android:text="Play"
-		android:textSize="35dp"/>
+		android:textSize="16dp"/>
 	
 <!--	<Button
 		android:id="@+id/playor"
@@ -59,7 +59,7 @@
 		android:layout_gravity="center"
 		android:gravity="center"
 		android:text="Settings"
-		android:textSize="35dp"/>
+		android:textSize="16dp"/>
 	
 		</LinearLayout>
 	</ScrollView>

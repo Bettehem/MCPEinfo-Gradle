@@ -19,7 +19,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/selratingmethod"
-                android:textSize="25dp"
+                android:textSize="26sp"
                 android:layout_gravity="center"
                 android:gravity="center"/>
 

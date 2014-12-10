@@ -31,7 +31,7 @@
 		android:layout_gravity="center"
 		android:gravity="center"
 		android:text="@string/enter"
-		android:textSize="18sp"/>
+		android:textSize="16sp"/>
 
 	<ScrollView
 		android:layout_width="fill_parent"
@@ -48,7 +48,7 @@
 				android:layout_gravity="center"
 				android:gravity="center"
 				android:text="@string/note"
-				android:textSize="36dp"/>
+				android:textSize="26sp"/>
 
 		</LinearLayout>
 

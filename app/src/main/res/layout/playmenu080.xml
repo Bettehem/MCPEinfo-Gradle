@@ -29,7 +29,7 @@
 			    android:layout_gravity="center"
 			    android:gravity="center"
 			    android:text="@string/playmenutxt"
-			    android:textSize="30dp" />
+			    android:textSize="18sp" />
 			
 		    <Button
 				android:id="@+id/addworldbtn"
@@ -46,7 +46,7 @@
 			    android:layout_gravity="center"
 			    android:gravity="center"
 			    android:text="@string/playmenutxt2"
-			    android:textSize="30dp" />
+			    android:textSize="18sp" />
 			
 			<Button
 				android:id="@+id/addserverbtn"
@@ -63,7 +63,7 @@
 			    android:layout_gravity="center"
 			    android:gravity="center"
 			    android:text="@string/playmenutxt3"
-			    android:textSize="30dp" />
+			    android:textSize="18sp" />
 			
 		</LinearLayout>
 	</ScrollView>
