@@ -65,8 +65,7 @@
 						android:id="@+id/test"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
-						android:text="Jaa"
-						android:layout_gravity="center"
+                        android:layout_gravity="center"
 						android:gravity="center"
 						android:textSize="30dp"/>
 
