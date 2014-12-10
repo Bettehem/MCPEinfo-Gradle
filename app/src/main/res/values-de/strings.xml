@@ -100,11 +100,11 @@
   <string name="no">Nein</string>
   <string name="customrom">Do you have a custom ROM in your device?</string>
   <string name="typerom">What is your ROM?</string>
-  <string name="typesomethinginbothplusrom">Type the required information in! Also type in the details of your custom ROM!</string>
   <string name="typerequiredplusrom">Type in the required information! Also type in the detail of your custom ROM!</string>
   <string name="musttyperom">Type in the details of your ROM!</string>
   <string name="selratingmethod">Select your rating method</string>
   <string name="playrating">Rate on Google Play Store</string>
   <string name="mailrating">Rate through Email</string>
   <string name="inputlanguage">Type your answers in english or finnish!</string>
+    <string name="typerequired">Type in the required information!</string>
 </resources>
